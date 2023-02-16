@@ -12,5 +12,7 @@ p1 = function(x){
   #numeric summary
   data.frame(min=min(x),
              median = median(x),
-             max = max(x))
+             max = max(x)),
+             sd=sd(x),
+             range=range(x)
 }
